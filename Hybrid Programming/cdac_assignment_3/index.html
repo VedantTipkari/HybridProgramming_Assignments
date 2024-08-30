@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Assignment 3</title>
+    <style>
+        div input{
+            margin-top: 46px;
+        }
+    </style>
+</head>
+<body>
+    
+     <h1 style="text-align: center;">Registration form</h1>
+
+     <div style="display: flex;  ">
+        <div>
+            <video style="height: 500px;width: 500px; " controls>
+
+                <source src="lv_0_20230802182332.mp4" type="video/mp4"  >
+            </video>
+        </div>
+
+        <div style="display: flex;border:1px solid; margin-left: 50px;">
+          
+            <div style="margin-left: 200px; margin-top: 30px;">
+                <p>Name</p><br>
+                <p>Birth Date</p><br>
+                <p>Email</p><br>
+                <p>Password</p><br>
+                <p>Address</p><br>
+                <p>Gender</p><br>
+                <p>Upload Photo</p><br>
+                <p>Select Your Course</p><br>
+            </div>
+
+
+            <div style="margin-left: 200px; ">
+
+                <input type="text" placeholder="Enter Name" required><br>
+                <input type="date" placeholder="dd/mm/yyyy" required><br>
+                <input type="email" placeholder="abc@gmail.com" required><br>
+                <input type="password" placeholder="*******" required><br>
+                <div style="display: flex; margin-top: 46px; ">
+
+                    <div >
+                          <select >
+                            <option value="">Country</option>
+                            <option> India</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                            <option>JAPAN</option>
+                          </select>
+                    </div>
+
+                    <div style="padding-left: 7px;">
+                        <select >
+                            <option value="">State</option>
+                            <option> State 1</option>
+                            <option>State 2</option>
+                            <option>State 3</option>
+                            <option>State 4</option>
+                          </select>
+                    </div>
+
+                    <div style="padding-left: 7px;">
+                        <select >
+                            <option value="">City</option>
+                            <option> City 1</option>
+                            <option>City 2</option>
+                            <option>City 3</option>
+                            <option>City 4</option>
+                          </select>
+                    </div>
+                     
+                </div>
+                
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">Other<br>
+                <input type="file" placeholder="Upload your Photo"><br>
+                
+
+                <select style="margin-top: 55px;">
+                    <option>Select your course</option>
+                    <option>DMC</option>
+                    <option>DAC</option>
+                    <option>AI</option>
+                    <option>DS</option>
+                </select>
+
+
+            </div>
+
+
+        </div>
+     </div>
+
+
+</body>
+</html>
